@@ -1,0 +1,50 @@
+Udemy: https://wipro.udemy.com/course/rest-api-flask-and-python/learn/lecture/5960042#overview
+Code : https://github.com/tecladocode/python-refresher/blob/master/01_variables/code.py
+
+HTTP:
+when you hit http://www.google.com
+Server then sees  GET / HTTP/1.1  Host: http://www.google.com
+
+GET verb
+/  Path or endpoint  (ex: .../item/1)
+HTTP/1.1 Protocol
+
+Then server will look code in respective host and give,
+# error
+# HTTP not found
+# server not available
+# result (data or html)
+
+#EXs
+
+GET / HTTP/1.1 Host: https://www.twitter.com
+GET / HTTP/1.1 Host: https://www.git-scm.com
+
+Twitter check in Twitter.HTML
+GIT-SCM check in GIT HTML
+
+Going to page is always do a GET
+But there are many things POST,DELETE,PUT,POST etc
+
+                                        ---HTTP VERBS---
+
+Verbs            Meaning                                         Ex:
+--------------------------------------------------------------------------------------------------
+GET             always send                                   GET /item/1
+POST            Receive data and Use it                       POST /item            {"name":"DJ", "age":31}
+PUT             Add if it new else update exist               PUT /item             {"name":"DJ", "age":30}  #create new if not exist , update if exist
+DELETE          Remove someting                               DELETE /item/1
+
+
+#Always the URL hit from browser is GET
+                                       ********REST API********
+#stateless
+#means one request can not depends on another
+
+
+
+
+
+
+
+
